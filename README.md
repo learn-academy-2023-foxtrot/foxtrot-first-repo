@@ -53,15 +53,22 @@ Use this command to move to a branch that exists on your local machine:
 ### Pushing Local Code to GitHub
 Use these commands to add the code you have on your local machine to GitHub:
 
-$ git status
-$ git add <file-name>
-$ git commit -m "message describing the work that was accomplished"
-$ git push origin <branch-name>
+`$ git status`
+`$ git add <file-name>`
+`$ git commit -m "message describing the work that was accomplished"`
+`$ git push origin <branch-name>`
 
 ### Switching Drivers
 - Second driver will run the following commands after verifying that the shared repo is cloned on both sides locally
 
-$ git fetch origin <branch-name-of-team>
-$ git checkout <branch-name-of-team>
+`$ git fetch origin <branch-name-of-team>`
+`$ git checkout <branch-name-of-team>`
+
+- After changes have been made and the team is ready to switch again, revisit the Pushing Local Code to Github steps above.
+
+### Additional Driver Swap
+- Because all local machines have the remote branch, the changes can be added with the following command:
+
+`$ git pull origin <branch-name>`
 
 - After changes have been made and the team is ready to switch again, revisit the Pushing Local Code to Github steps above.

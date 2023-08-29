@@ -58,3 +58,10 @@ $ git add <file-name>
 $ git commit -m "message describing the work that was accomplished"
 $ git push origin <branch-name>
 
+### Switching Drivers
+- Second driver will run the following commands after verifying that the shared repo is cloned on both sides locally
+
+$ git fetch origin <branch-name-of-team>
+$ git checkout <branch-name-of-team>
+
+- After changes have been made and the team is ready to switch again, revisit the Pushing Local Code to Github steps above.

@@ -77,13 +77,17 @@ Use these commands to add the code you have on your local machine to GitHub:
 
 ### Creating a pull request
 - Changes have been pushed per Pushing Local Code to Github steps
-- On GitHub, follow the prompts to create pull request:
-
+- On GitHub, follow the prompts to create pull request:  
   - Click the `Compare & Pull Request` button   
-  - Click the `Create Pull Request` button  
+  - Click the `Create Pull Request` button    
+
+- Once the pull request is approved, merge changes to the main branch on GitHub:
+
   - Click the `Merge Pull Request` button  
   - Click the `Confirm Merge` button  
-  - Click the `Delete Branch` button to remove the stale branch  
+
+- Remove the stale branch on GitHub:
+  - Click the `Delete Branch` button
 
 ### Deleting a Branch Locally
 Delete the local stale branch after ensuring that your local main branch matches the changes you have added to your remote main branch.
